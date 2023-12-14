@@ -92,24 +92,47 @@ main {
     /*test*/
 }
 
+/*box clothes*/
+
 .box {
     position: absolute;
-    bottom: -50px;
+    bottom: -60px;
     left: 0;
-    line-height: 1em;
+
+    line-height: 1.2em;
+}
+
+.box .clothes {
+    font-weight: 600;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: black;
+}
+
+.new-price {
+    color: #ff1c2f;
 }
 
 .discount {
     position: absolute;
     bottom: 40px;
     left: 0;
-    z-index: 1;
-    background-color: red;
+
+    padding: 3px;
+
+    background-color: #ff1c2f;
+    color: white;
 }
 
 .eco {
     left: 50px;
-    background-color: green;
+    background-color: #008000;
+}
+
+.eco-only {
+    left: 0;
 }
 
 .heart {
@@ -123,12 +146,16 @@ main {
 
     width: 40px;
     height: 40px;
+    font-size: 1.8em;
 
     background-color: white;
     color: black;
-
 }
 
+/*end box clothes*/
+
+
+/*footer*/
 footer {
     background-color: #1a1a1a;
     color: white;
@@ -143,4 +170,8 @@ footer {
 
 li {
     padding-top: 5px;
+}
+
+h1 {
+    font-size: 1.2em;
 }
