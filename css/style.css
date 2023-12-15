@@ -18,12 +18,13 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 li {
     list-style-type: none;
 
-    padding-right: 10px;
+
 }
 
 a {
@@ -51,10 +52,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 
-    width: 95%;
+    width: 100%;
     min-height: 60px;
-    margin: auto;
 }
 
 .logo {
@@ -73,6 +74,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .image {
@@ -81,11 +83,9 @@ main {
 
     top: 10px;
 
-    width: calc(100% /3);
     height: 450px;
 
     margin-bottom: 120px;
-    margin-left: 20px;
 
     z-index: 0;
 }
