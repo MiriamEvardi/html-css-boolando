@@ -195,7 +195,7 @@ h1 {
 
 .hover-image:hover {
     opacity: 1;
-    transition: 0.3s ease;
+    transition: opacity 0.3s;
 }
 
 /*bonus*/
