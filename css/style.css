@@ -24,8 +24,6 @@ ul {
 
 li {
     list-style-type: none;
-
-
 }
 
 a {
@@ -123,10 +121,12 @@ main {
 
     background-color: #ff1c2f;
     color: white;
+    font-weight: 600;
 }
 
 .eco {
-    left: 50px;
+    font-weight: 600;
+    left: 40px;
     background-color: #008000;
 }
 
